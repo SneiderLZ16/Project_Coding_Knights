@@ -1,76 +1,97 @@
 # Project_Coding_Knights
+Project_Coding_Knights
 
-# 💼 JobFinder - Plataforma de Empleos
+# 💼 JobFinder - Employment Platform
+A web and mobile application designed to search, save, and manage job opportunities from various sources using external job listing APIs (such as Remotive or Adzuna). It includes:
 
-Aplicación web + app móvil que permite buscar, guardar y gestionar ofertas de empleo provenientes de múltiples fuentes usando APIs externas (como Remotive o Adzuna). Incluye:
+SPA (Single Page Application)
 
-- SPA (Single Page Application)
-- Backend en Java (Spring Boot)
-- CRUD de empleos favoritos
-- Consumo de APIs externas
-- Base de datos SQL
-- App móvil en Android Studio (opcional)
+Backend in Java (Spring Boot)
+
+CRUD for saved job offers
+
+Integration with external job APIs
+
+SQL-based database
+
+Android mobile app (optional)
 
 ---
 
-## 🚀 Tecnologías
+# 🎯 Project Goal
 
+Our mission is to improve employment opportunities within a specific community by providing a centralized platform where users can efficiently search for job offers, access curated opportunities, and manage their job applications from one place. We aim to empower individuals with accessible tools for job discovery and career development.
+
+---
+
+🚀 Technologies
 ### Frontend:
-- HTML
-- CSS
-- JavaScript (puro o con Bootstrap)
+--HTML
+
+--CSS
+
+--JavaScript (Vanilla or Bootstrap)
 
 ### Backend:
-- Java con Spring Boot
-- REST API (JSON)
-- MySQL o SQLite
 
-### Mobile (opcional):
-- Android Studio con Java
+--Java with Spring Boot
 
-### API de empleos:
-- [Remotive API](https://remotive.io/api/remote-jobs)
-- [Adzuna API](https://developer.adzuna.com/) (requiere claves)
+--REST API (JSON)
+
+--MySQL or SQLite
+
+### Mobile (optional):
+
+--Android Studio using Java
+
+### Job Listing APIs:
+
+--Remotive API
+
+--Adzuna API (requires API keys)
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Project structure
 
 jobfinder/
 │
 ├── frontend/
-│ ├── index.html
-│ ├── app.js
-│ └── styles.css
+│   ├── index.html
+│   ├── app.js
+│   └── styles.css
 │
 ├── backend/
-│ └── src/main/java/com/jobfinder/
-│ ├── controller/
-│ ├── model/
-│ ├── repository/
-│ └── service/
+│   └── src/main/java/com/jobfinder/
+│       ├── controller/
+│       ├── model/
+│       ├── repository/
+│       └── service/
 │
 ├── database/
-│ └── schema.sql
+│   └── schema.sql
 │
-└── android-app/ (opcional)
-└── JobFinderApp/
-
+└── android-app/ (optional)
+    └── JobFinderApp/
 ---
 
-## 🌐 Funcionalidades
+## 🌐 Features
 
-### SPA Web
-- ✅ Búsqueda de trabajos por palabra clave
-- ✅ Filtro por ubicación, remoto, etc.
-- ✅ Vista de detalles de cada empleo
-- ✅ Guardar ofertas favoritas
-- ✅ Ver, eliminar y gestionar favoritos (CRUD)
+### SPA Web Interface
+- ✅ Job search by keyword
 
+- ✅ Filters for location, remote work, etc.
+
+- ✅ Job offer detail view
+
+- ✅ Save favorite job offers
+
+- ✅ View, delete, and manage saved offers (CRUD)
 ---
 
-🤝 Colaboradores
-Equipo Dev JobFinder
+🤝 Collaborators
+
+JobFinder Development Team:
 - Kevin Londoño
 - Felipe Marin
 - Miguel Zapata
