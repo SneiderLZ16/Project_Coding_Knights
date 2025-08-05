@@ -45,7 +45,7 @@ We aim to **empower individuals** with accessible tools for job discovery and **
 
 ## 📁 Project Structure
 
-
+```bash
 jobfinder/
 │
 ├── frontend/
@@ -65,6 +65,7 @@ jobfinder/
 │
 └── android-app/ (optional)
 └── JobFinderApp/
+```
 
 ---
 
